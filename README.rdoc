@@ -6,8 +6,7 @@
 
 =Как пользоваться?
 
-Step 1. Регистрируем свое прилоение в instagram
-				Регистрируем приложение в инстаграме: http://instagram.com/developer/
+Step 1. Регистрируем свое приложение в instagram: http://instagram.com/developer/
         Незабываем снять галочку с чекбокса "Disable implicit OAuth". 
         Если разворачиваете приложение на локалхосте, то OAuth redirect_uri:  	http://localhost
 

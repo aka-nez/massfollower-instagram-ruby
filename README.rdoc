@@ -27,4 +27,15 @@ Step 4. Настраиваем приложение
         MAX_FOLLOWS_PER_HOUR - максимальное число подписок в час. По умолчанию 50
         MAX_SLEEP_TIME       - максимальное время засыпания приложения при достижении часового лимита
         FILE_PATH            - путь к файлу с никами для массфоловинга
-				 
+
+Step 5. Клонируем репозиторий
+        $ git clone git@github.com:aka-nez/massfollower-instagram-ruby.git
+                
+Step 6. Bundle!
+        $ bundle install
+        
+Step 7. Запускаем, радуемся
+        $ ruby massfollower.rb
+        
+Багрепорт: https://github.com/aka-nez/massfollower-instagram-ruby/issues
+Связь: vyacheslav@the-pr-manager.com		 

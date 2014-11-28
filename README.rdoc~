@@ -12,18 +12,30 @@ Step 1. Регистрируем свое прилоение в instagram
         Если разворачиваете приложение на локалхосте, то OAuth redirect_uri:  	http://localhost
 
 Step 2. Получаем access_token
-				https://instagram.com/oauth/authorize/?client_id=[CLIENT_ID_HERE]&redirect_uri=http://localhost&response_type=token&scope=likes+comments+relationships
-				где [CLIENT_ID_HERE] client id вашего приложения
+        https://instagram.com/oauth/authorize/?client_id=[CLIENT_ID_HERE]&redirect_uri=http://localhost&response_type=token&scope=likes+comments+relationships
+        где [CLIENT_ID_HERE] client id вашего приложения
 
 Step 3. Копируем файлы массфоловера
-				$git clone git@github.com:aka-nez/massfollower-instagram-ruby.git
+        $git clone git@github.com:aka-nez/massfollower-instagram-ruby.git
 
 Step 4. Настраиваем приложение
-				В файле massfollower.rb в блоке #setting находим:
-				CLIENT_ID            - client id вашего приложения
-				CLIENT_SECRET        - client secret вашего приложения
-				ACCESS_TOKEN         - access_token полученный в шаге №2
-				MAX_FOLLOWS_PER_HOUR - максимальное число подписок в час. По умолчанию 50
-				MAX_SLEEP_TIME       - максимальное время засыпания приложения при достижении часового лимита
-				FILE_PATH            - путь к файлу с никами для массфоловинга
+        В файле massfollower.rb в блоке #setting находим:
+        CLIENT_ID            - client id вашего приложения
+        CLIENT_SECRET        - client secret вашего приложения
+        ACCESS_TOKEN         - access_token полученный в шаге №2
+        IP                   - ваш ip. Посмотреть можно тут: http://ip-address.ru/show
+        MAX_FOLLOWS_PER_HOUR - максимальное число подписок в час. По умолчанию 50
+        MAX_SLEEP_TIME       - максимальное время засыпания приложения при достижении часового лимита
+        FILE_PATH            - путь к файлу с никами для массфоловинга
+
+Step 5. Клонируем репозиторий
+        $ git clone git@github.com:aka-nez/massfollower-instagram-ruby.git
+                
+Step 6. Bundle!
+        $ bundle install
+        
+Step 7. Запускаем, радуемся
+        $ ruby massfollower.rb
+        
+Багрепорт: https://github.com/aka-nez/massfollower-instagram-ruby/issues   
 				 

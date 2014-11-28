@@ -8,10 +8,10 @@ require 'date'
 require 'socket'
 
 	#setting
-	CLIENT_ID = ""
-	CLIENT_SECRET = ""
-	ACCESS_TOKEN = ""
-	IP = ""
+	CLIENT_ID = "9e691ed2cd784497aabd000b0982e6c9"
+	CLIENT_SECRET = "6a882a90f17c434d80f85871f7f563b8"
+	ACCESS_TOKEN = "506686147.9e691ed.1b8842e973bd4bd595fd33a781ca667b"
+	IP = "92.124.119.9"
 	MAX_FOLLOWS_PER_HOUR = 50 #max 60
 	MAX_SLEEP_TIME = 3600 
 	FILE_PATH = "usernames.txt" 
